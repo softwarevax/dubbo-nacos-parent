@@ -1,0 +1,580 @@
+2020-01-14 17:16:02,335 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:16:02,343 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: changed, schedule push for: 10.11.229.113:65154, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,65154,2192392765276699
+
+2020-01-14 17:16:02,343 INFO send udp packet: 10.11.229.113,65154,2192392765276699
+
+2020-01-14 17:16:02,354 INFO received ack: {"type": "push-ack", "lastRefTime":"2192392765276699", "data":""} from: 10.11.229.113:, cost: 65154 ms, unacked: 11, total push: 0
+
+2020-01-14 17:16:35,557 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:16:35,558 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: changed, schedule push for: 10.11.229.113:65154, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,65154,2192425981535200
+
+2020-01-14 17:16:35,559 INFO send udp packet: 10.11.229.113,65154,2192425981535200
+
+2020-01-14 17:16:45,561 INFO retry to push data, key: 10.11.229.113,65154,2192425981535200
+
+2020-01-14 17:16:45,561 INFO send udp packet: 10.11.229.113,65154,2192425981535200
+
+2020-01-14 17:16:55,563 INFO retry to push data, key: 10.11.229.113,65154,2192425981535200
+
+2020-01-14 17:16:55,563 WARN max re-push times reached, retry times 2, key: 10.11.229.113,65154,2192425981535200
+
+2020-01-14 17:20:00,832 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:20:00,832 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: changed, schedule push for: 10.11.229.113:56520, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,56520,2192631254694699
+
+2020-01-14 17:20:00,832 INFO send udp packet: 10.11.229.113,56520,2192631254694699
+
+2020-01-14 17:20:00,836 INFO received ack: {"type": "push-ack", "lastRefTime":"2192631254694699", "data":""} from: 10.11.229.113:, cost: 56520 ms, unacked: 4, total push: 0
+
+2020-01-14 17:20:38,935 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.consumer.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:20:53,937 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.consumer.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:21:09,087 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.consumer.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:23:04,959 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:23:04,960 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: changed, schedule push for: 10.11.229.113:56520, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,56520,2192815382658600
+
+2020-01-14 17:23:04,960 INFO send udp packet: 10.11.229.113,56520,2192815382658600
+
+2020-01-14 17:23:14,961 INFO retry to push data, key: 10.11.229.113,56520,2192815382658600
+
+2020-01-14 17:23:14,961 INFO send udp packet: 10.11.229.113,56520,2192815382658600
+
+2020-01-14 17:23:24,963 INFO retry to push data, key: 10.11.229.113,56520,2192815382658600
+
+2020-01-14 17:23:24,963 WARN max re-push times reached, retry times 2, key: 10.11.229.113,56520,2192815382658600
+
+2020-01-14 17:23:56,618 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:23:56,618 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: changed, schedule push for: 10.11.229.113:56542, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,56542,2192867041040400
+
+2020-01-14 17:23:56,618 INFO send udp packet: 10.11.229.113,56542,2192867041040400
+
+2020-01-14 17:23:56,623 INFO received ack: {"type": "push-ack", "lastRefTime":"2192867041040400", "data":""} from: 10.11.229.113:, cost: 56542 ms, unacked: 5, total push: 0
+
+2020-01-14 17:24:06,059 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.consumer.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:24:24,113 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.consumer.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:24:39,120 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.consumer.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:26:43,410 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.provider.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:28:01,860 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:28:01,860 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: changed, schedule push for: 10.11.229.113:54730, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54730,2193112283352800
+
+2020-01-14 17:28:01,861 INFO send udp packet: 10.11.229.113,54730,2193112283352800
+
+2020-01-14 17:28:01,861 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.provider.service.HelloService:: changed, schedule push for: 10.11.229.113:56542, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,56542,2193112283352800
+
+2020-01-14 17:28:01,861 INFO send udp packet: 10.11.229.113,56542,2193112283352800
+
+2020-01-14 17:28:01,934 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.provider.service.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:28:11,862 INFO retry to push data, key: 10.11.229.113,54730,2193112283352800
+
+2020-01-14 17:28:11,862 INFO send udp packet: 10.11.229.113,54730,2193112283352800
+
+2020-01-14 17:28:11,862 INFO retry to push data, key: 10.11.229.113,56542,2193112283352800
+
+2020-01-14 17:28:11,862 INFO send udp packet: 10.11.229.113,56542,2193112283352800
+
+2020-01-14 17:28:21,864 INFO retry to push data, key: 10.11.229.113,54730,2193112283352800
+
+2020-01-14 17:28:21,864 WARN max re-push times reached, retry times 2, key: 10.11.229.113,54730,2193112283352800
+
+2020-01-14 17:28:21,864 INFO retry to push data, key: 10.11.229.113,56542,2193112283352800
+
+2020-01-14 17:28:21,864 WARN max re-push times reached, retry times 2, key: 10.11.229.113,56542,2193112283352800
+
+2020-01-14 17:33:52,828 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:33:52,828 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:61652, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,61652,2193463250789499
+
+2020-01-14 17:33:52,828 INFO send udp packet: 10.11.229.113,61652,2193463250789499
+
+2020-01-14 17:33:52,832 INFO received ack: {"type": "push-ack", "lastRefTime":"2193463250789499", "data":""} from: 10.11.229.113:, cost: 61652 ms, unacked: 4, total push: 0
+
+2020-01-14 17:34:06,968 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:34:52,130 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:34:52,130 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:61652, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,61652,2193522552996500
+
+2020-01-14 17:34:52,130 INFO send udp packet: 10.11.229.113,61652,2193522552996500
+
+2020-01-14 17:34:52,131 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:61654, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,61654,2193522552996500
+
+2020-01-14 17:34:52,131 INFO send udp packet: 10.11.229.113,61654,2193522552996500
+
+2020-01-14 17:34:52,197 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:35:02,132 INFO retry to push data, key: 10.11.229.113,61652,2193522552996500
+
+2020-01-14 17:35:02,132 INFO send udp packet: 10.11.229.113,61652,2193522552996500
+
+2020-01-14 17:35:02,132 INFO retry to push data, key: 10.11.229.113,61654,2193522552996500
+
+2020-01-14 17:35:02,132 INFO send udp packet: 10.11.229.113,61654,2193522552996500
+
+2020-01-14 17:35:12,133 INFO retry to push data, key: 10.11.229.113,61652,2193522552996500
+
+2020-01-14 17:35:12,133 WARN max re-push times reached, retry times 2, key: 10.11.229.113,61652,2193522552996500
+
+2020-01-14 17:35:12,135 INFO retry to push data, key: 10.11.229.113,61654,2193522552996500
+
+2020-01-14 17:35:12,135 WARN max re-push times reached, retry times 2, key: 10.11.229.113,61654,2193522552996500
+
+2020-01-14 17:37:10,869 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:37:10,870 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:51167, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,51167,2193661302731200
+
+2020-01-14 17:37:10,871 INFO send udp packet: 10.11.229.113,51167,2193661302731200
+
+2020-01-14 17:37:10,878 INFO received ack: {"type": "push-ack", "lastRefTime":"2193661302731200", "data":""} from: 10.11.229.113:, cost: 51167 ms, unacked: 7, total push: 0
+
+2020-01-14 17:37:49,312 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:37:49,312 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:51167, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,51167,2193699749737500
+
+2020-01-14 17:37:49,312 INFO send udp packet: 10.11.229.113,51167,2193699749737500
+
+2020-01-14 17:37:59,312 INFO retry to push data, key: 10.11.229.113,51167,2193699749737500
+
+2020-01-14 17:37:59,312 INFO send udp packet: 10.11.229.113,51167,2193699749737500
+
+2020-01-14 17:38:09,314 INFO retry to push data, key: 10.11.229.113,51167,2193699749737500
+
+2020-01-14 17:38:09,314 WARN max re-push times reached, retry times 2, key: 10.11.229.113,51167,2193699749737500
+
+2020-01-14 17:40:11,310 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:40:11,310 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:58712, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,58712,2193841763679800
+
+2020-01-14 17:40:11,311 INFO send udp packet: 10.11.229.113,58712,2193841763679800
+
+2020-01-14 17:40:11,315 INFO received ack: {"type": "push-ack", "lastRefTime":"2193841763679800", "data":""} from: 10.11.229.113:, cost: 58712 ms, unacked: 4, total push: 0
+
+2020-01-14 17:40:20,270 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:40:29,007 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:40:29,007 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:58712, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,58712,2193859462887100
+
+2020-01-14 17:40:29,007 INFO send udp packet: 10.11.229.113,58712,2193859462887100
+
+2020-01-14 17:40:29,007 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:58713, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,58713,2193859462887100
+
+2020-01-14 17:40:29,007 INFO send udp packet: 10.11.229.113,58713,2193859462887100
+
+2020-01-14 17:40:29,047 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:40:39,007 INFO retry to push data, key: 10.11.229.113,58712,2193859462887100
+
+2020-01-14 17:40:39,007 INFO send udp packet: 10.11.229.113,58712,2193859462887100
+
+2020-01-14 17:40:39,008 INFO retry to push data, key: 10.11.229.113,58713,2193859462887100
+
+2020-01-14 17:40:39,008 INFO send udp packet: 10.11.229.113,58713,2193859462887100
+
+2020-01-14 17:40:49,009 INFO retry to push data, key: 10.11.229.113,58712,2193859462887100
+
+2020-01-14 17:40:49,009 WARN max re-push times reached, retry times 2, key: 10.11.229.113,58712,2193859462887100
+
+2020-01-14 17:40:49,009 INFO retry to push data, key: 10.11.229.113,58713,2193859462887100
+
+2020-01-14 17:40:49,009 WARN max re-push times reached, retry times 2, key: 10.11.229.113,58713,2193859462887100
+
+2020-01-14 17:41:49,384 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:41:49,384 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:61668, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,61668,2193939848092500
+
+2020-01-14 17:41:49,384 INFO send udp packet: 10.11.229.113,61668,2193939848092500
+
+2020-01-14 17:41:49,388 INFO received ack: {"type": "push-ack", "lastRefTime":"2193939848092500", "data":""} from: 10.11.229.113:, cost: 61668 ms, unacked: 4, total push: 0
+
+2020-01-14 17:42:02,592 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:42:57,099 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:42:57,099 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:52343, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,52343,2194007570542100
+
+2020-01-14 17:42:57,099 INFO send udp packet: 10.11.229.113,52343,2194007570542100
+
+2020-01-14 17:42:57,099 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:61668, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,61668,2194007570542100
+
+2020-01-14 17:42:57,099 INFO send udp packet: 10.11.229.113,61668,2194007570542100
+
+2020-01-14 17:42:57,170 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:43:07,099 INFO retry to push data, key: 10.11.229.113,52343,2194007570542100
+
+2020-01-14 17:43:07,099 INFO send udp packet: 10.11.229.113,52343,2194007570542100
+
+2020-01-14 17:43:07,099 INFO retry to push data, key: 10.11.229.113,61668,2194007570542100
+
+2020-01-14 17:43:07,099 INFO send udp packet: 10.11.229.113,61668,2194007570542100
+
+2020-01-14 17:43:17,099 INFO retry to push data, key: 10.11.229.113,52343,2194007570542100
+
+2020-01-14 17:43:17,099 WARN max re-push times reached, retry times 2, key: 10.11.229.113,52343,2194007570542100
+
+2020-01-14 17:43:17,099 INFO retry to push data, key: 10.11.229.113,61668,2194007570542100
+
+2020-01-14 17:43:17,099 WARN max re-push times reached, retry times 2, key: 10.11.229.113,61668,2194007570542100
+
+2020-01-14 17:58:35,550 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:58:35,563 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60656, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60656,2194946115715799
+
+2020-01-14 17:58:35,563 INFO send udp packet: 10.11.229.113,60656,2194946115715799
+
+2020-01-14 17:58:35,573 INFO received ack: {"type": "push-ack", "lastRefTime":"2194946115715799", "data":""} from: 10.11.229.113:, cost: 60656 ms, unacked: 10, total push: 0
+
+2020-01-14 17:58:38,603 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:58:59,646 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:58:59,646 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2194970213187600
+
+2020-01-14 17:58:59,646 INFO send udp packet: 10.11.229.113,60657,2194970213187600
+
+2020-01-14 17:58:59,646 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60656, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60656,2194970213187600
+
+2020-01-14 17:58:59,646 INFO send udp packet: 10.11.229.113,60656,2194970213187600
+
+2020-01-14 17:58:59,649 INFO received ack: {"type": "push-ack", "lastRefTime":"2194970213187600", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 3, total push: 1
+
+2020-01-14 17:58:59,649 INFO received ack: {"type": "push-ack", "lastRefTime":"2194970213187600", "data":""} from: 10.11.229.113:, cost: 60656 ms, unacked: 3, total push: 0
+
+2020-01-14 17:59:09,660 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 17:59:09,660 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2194980228141000
+
+2020-01-14 17:59:09,660 INFO send udp packet: 10.11.229.113,60657,2194980228141000
+
+2020-01-14 17:59:09,660 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60656, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60656,2194980228141000
+
+2020-01-14 17:59:09,661 INFO send udp packet: 10.11.229.113,60656,2194980228141000
+
+2020-01-14 17:59:09,662 INFO received ack: {"type": "push-ack", "lastRefTime":"2194980228141000", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 2, total push: 1
+
+2020-01-14 17:59:19,662 INFO retry to push data, key: 10.11.229.113,60656,2194980228141000
+
+2020-01-14 17:59:19,662 INFO send udp packet: 10.11.229.113,60656,2194980228141000
+
+2020-01-14 17:59:29,664 INFO retry to push data, key: 10.11.229.113,60656,2194980228141000
+
+2020-01-14 17:59:29,664 WARN max re-push times reached, retry times 2, key: 10.11.229.113,60656,2194980228141000
+
+2020-01-14 18:00:13,813 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:00:13,813 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195044385865900
+
+2020-01-14 18:00:13,813 INFO send udp packet: 10.11.229.113,60657,2195044385865900
+
+2020-01-14 18:00:13,814 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:54240, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54240,2195044385865900
+
+2020-01-14 18:00:13,814 INFO send udp packet: 10.11.229.113,54240,2195044385865900
+
+2020-01-14 18:00:13,817 INFO received ack: {"type": "push-ack", "lastRefTime":"2195044385865900", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 4, total push: 1
+
+2020-01-14 18:00:13,819 INFO received ack: {"type": "push-ack", "lastRefTime":"2195044385865900", "data":""} from: 10.11.229.113:, cost: 54240 ms, unacked: 5, total push: 0
+
+2020-01-14 18:00:45,263 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:00:45,263 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195075839105399
+
+2020-01-14 18:00:45,263 INFO send udp packet: 10.11.229.113,60657,2195075839105399
+
+2020-01-14 18:00:45,263 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:54240, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54240,2195075839105399
+
+2020-01-14 18:00:45,263 INFO send udp packet: 10.11.229.113,54240,2195075839105399
+
+2020-01-14 18:00:45,266 INFO received ack: {"type": "push-ack", "lastRefTime":"2195075839105399", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 3, total push: 1
+
+2020-01-14 18:00:45,266 INFO received ack: {"type": "push-ack", "lastRefTime":"2195075839105399", "data":""} from: 10.11.229.113:, cost: 54240 ms, unacked: 3, total push: 0
+
+2020-01-14 18:00:55,287 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:00:55,287 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195085863125400
+
+2020-01-14 18:00:55,287 INFO send udp packet: 10.11.229.113,60657,2195085863125400
+
+2020-01-14 18:00:55,287 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:54240, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54240,2195085863125400
+
+2020-01-14 18:00:55,287 INFO send udp packet: 10.11.229.113,54240,2195085863125400
+
+2020-01-14 18:00:55,290 INFO received ack: {"type": "push-ack", "lastRefTime":"2195085863125400", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 3, total push: 1
+
+2020-01-14 18:01:00,492 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:01:00,492 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:54247, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54247,2195091068747100
+
+2020-01-14 18:01:00,492 INFO send udp packet: 10.11.229.113,54247,2195091068747100
+
+2020-01-14 18:01:00,493 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195091068747100
+
+2020-01-14 18:01:00,493 INFO send udp packet: 10.11.229.113,60657,2195091068747100
+
+2020-01-14 18:01:00,493 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:54240, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54240,2195091068747100
+
+2020-01-14 18:01:00,493 INFO send udp packet: 10.11.229.113,54240,2195091068747100
+
+2020-01-14 18:01:00,496 INFO received ack: {"type": "push-ack", "lastRefTime":"2195091068747100", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 3, total push: 3
+
+2020-01-14 18:01:00,497 INFO received ack: {"type": "push-ack", "lastRefTime":"2195091068747100", "data":""} from: 10.11.229.113:, cost: 54247 ms, unacked: 5, total push: 2
+
+2020-01-14 18:01:05,287 INFO retry to push data, key: 10.11.229.113,54240,2195085863125400
+
+2020-01-14 18:01:05,287 INFO send udp packet: 10.11.229.113,54240,2195085863125400
+
+2020-01-14 18:01:10,494 INFO retry to push data, key: 10.11.229.113,54240,2195091068747100
+
+2020-01-14 18:01:10,494 INFO send udp packet: 10.11.229.113,54240,2195091068747100
+
+2020-01-14 18:01:15,288 INFO retry to push data, key: 10.11.229.113,54240,2195085863125400
+
+2020-01-14 18:01:15,288 WARN max re-push times reached, retry times 2, key: 10.11.229.113,54240,2195085863125400
+
+2020-01-14 18:01:20,495 INFO retry to push data, key: 10.11.229.113,54240,2195091068747100
+
+2020-01-14 18:01:20,495 WARN max re-push times reached, retry times 2, key: 10.11.229.113,54240,2195091068747100
+
+2020-01-14 18:01:35,460 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:01:35,460 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:54247, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54247,2195126039828600
+
+2020-01-14 18:01:35,460 INFO send udp packet: 10.11.229.113,54247,2195126039828600
+
+2020-01-14 18:01:35,460 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195126039828600
+
+2020-01-14 18:01:35,460 INFO send udp packet: 10.11.229.113,60657,2195126039828600
+
+2020-01-14 18:01:35,464 INFO received ack: {"type": "push-ack", "lastRefTime":"2195126039828600", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 4, total push: 1
+
+2020-01-14 18:01:45,461 INFO retry to push data, key: 10.11.229.113,54247,2195126039828600
+
+2020-01-14 18:01:45,461 INFO send udp packet: 10.11.229.113,54247,2195126039828600
+
+2020-01-14 18:01:55,462 INFO retry to push data, key: 10.11.229.113,54247,2195126039828600
+
+2020-01-14 18:01:55,462 WARN max re-push times reached, retry times 2, key: 10.11.229.113,54247,2195126039828600
+
+2020-01-14 18:01:56,911 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:01:56,911 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195147492269300
+
+2020-01-14 18:01:56,911 INFO send udp packet: 10.11.229.113,60657,2195147492269300
+
+2020-01-14 18:01:56,911 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:53046, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,53046,2195147492269300
+
+2020-01-14 18:01:56,912 INFO send udp packet: 10.11.229.113,53046,2195147492269300
+
+2020-01-14 18:01:56,914 INFO received ack: {"type": "push-ack", "lastRefTime":"2195147492269300", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 3, total push: 1
+
+2020-01-14 18:01:56,918 INFO received ack: {"type": "push-ack", "lastRefTime":"2195147492269300", "data":""} from: 10.11.229.113:, cost: 53046 ms, unacked: 6, total push: 0
+
+2020-01-14 18:05:37,713 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:05:37,713 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195368311762000
+
+2020-01-14 18:05:37,713 INFO send udp packet: 10.11.229.113,60657,2195368311762000
+
+2020-01-14 18:05:37,713 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:53046, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,53046,2195368311762000
+
+2020-01-14 18:05:37,713 INFO send udp packet: 10.11.229.113,53046,2195368311762000
+
+2020-01-14 18:05:37,714 INFO received ack: {"type": "push-ack", "lastRefTime":"2195368311762000", "data":""} from: 10.11.229.113:, cost: 53046 ms, unacked: 1, total push: 1
+
+2020-01-14 18:05:37,715 INFO received ack: {"type": "push-ack", "lastRefTime":"2195368311762000", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 2, total push: 0
+
+2020-01-14 18:05:47,732 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:05:47,732 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195378331421500
+
+2020-01-14 18:05:47,732 INFO send udp packet: 10.11.229.113,60657,2195378331421500
+
+2020-01-14 18:05:47,733 INFO received ack: {"type": "push-ack", "lastRefTime":"2195378331421500", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 1, total push: 0
+
+2020-01-14 18:05:58,565 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:05:58,565 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:62571, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,62571,2195389165376600
+
+2020-01-14 18:05:58,565 INFO send udp packet: 10.11.229.113,62571,2195389165376600
+
+2020-01-14 18:05:58,566 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195389165376600
+
+2020-01-14 18:05:58,566 INFO send udp packet: 10.11.229.113,60657,2195389165376600
+
+2020-01-14 18:05:58,568 INFO received ack: {"type": "push-ack", "lastRefTime":"2195389165376600", "data":""} from: 10.11.229.113:, cost: 60657 ms, unacked: 2, total push: 1
+
+2020-01-14 18:05:58,570 INFO received ack: {"type": "push-ack", "lastRefTime":"2195389165376600", "data":""} from: 10.11.229.113:, cost: 62571 ms, unacked: 5, total push: 0
+
+2020-01-14 18:09:08,775 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:09:08,775 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60657, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60657,2195579390547800
+
+2020-01-14 18:09:08,775 INFO send udp packet: 10.11.229.113,60657,2195579390547800
+
+2020-01-14 18:09:08,826 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:09:18,776 INFO retry to push data, key: 10.11.229.113,60657,2195579390547800
+
+2020-01-14 18:09:18,776 INFO send udp packet: 10.11.229.113,60657,2195579390547800
+
+2020-01-14 18:09:28,777 INFO retry to push data, key: 10.11.229.113,60657,2195579390547800
+
+2020-01-14 18:09:28,777 WARN max re-push times reached, retry times 2, key: 10.11.229.113,60657,2195579390547800
+
+2020-01-14 18:09:44,241 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:09:44,242 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60308, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60308,2195614859831000
+
+2020-01-14 18:09:44,242 INFO send udp packet: 10.11.229.113,60308,2195614859831000
+
+2020-01-14 18:09:44,247 INFO received ack: {"type": "push-ack", "lastRefTime":"2195614859831000", "data":""} from: 10.11.229.113:, cost: 60308 ms, unacked: 5, total push: 0
+
+2020-01-14 18:09:54,702 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:12:22,245 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:12:22,245 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:12:30,557 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:15:08,672 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:15:08,672 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60308, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60308,2195939309703299
+
+2020-01-14 18:15:08,672 INFO send udp packet: 10.11.229.113,60308,2195939309703299
+
+2020-01-14 18:15:08,672 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60309, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60309,2195939309703299
+
+2020-01-14 18:15:08,672 INFO send udp packet: 10.11.229.113,60309,2195939309703299
+
+2020-01-14 18:15:08,681 INFO received ack: {"type": "push-ack", "lastRefTime":"2195939309703299", "data":""} from: 10.11.229.113:, cost: 60308 ms, unacked: 9, total push: 1
+
+2020-01-14 18:15:08,683 INFO received ack: {"type": "push-ack", "lastRefTime":"2195939309703299", "data":""} from: 10.11.229.113:, cost: 60309 ms, unacked: 11, total push: 0
+
+2020-01-14 18:15:18,693 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:15:18,693 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60308, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60308,2195949330824399
+
+2020-01-14 18:15:18,693 INFO send udp packet: 10.11.229.113,60308,2195949330824399
+
+2020-01-14 18:15:18,693 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60309, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60309,2195949330824399
+
+2020-01-14 18:15:18,693 INFO send udp packet: 10.11.229.113,60309,2195949330824399
+
+2020-01-14 18:15:18,695 INFO received ack: {"type": "push-ack", "lastRefTime":"2195949330824399", "data":""} from: 10.11.229.113:, cost: 60309 ms, unacked: 2, total push: 1
+
+2020-01-14 18:15:25,264 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:15:25,264 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:54696, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54696,2195955902157900
+
+2020-01-14 18:15:25,264 INFO send udp packet: 10.11.229.113,54696,2195955902157900
+
+2020-01-14 18:15:25,265 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60308, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60308,2195955902157900
+
+2020-01-14 18:15:25,265 INFO send udp packet: 10.11.229.113,60308,2195955902157900
+
+2020-01-14 18:15:25,265 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:60309, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,60309,2195955902157900
+
+2020-01-14 18:15:25,265 INFO send udp packet: 10.11.229.113,60309,2195955902157900
+
+2020-01-14 18:15:25,270 INFO received ack: {"type": "push-ack", "lastRefTime":"2195955902157900", "data":""} from: 10.11.229.113:, cost: 60309 ms, unacked: 5, total push: 3
+
+2020-01-14 18:15:25,270 INFO received ack: {"type": "push-ack", "lastRefTime":"2195955902157900", "data":""} from: 10.11.229.113:, cost: 54696 ms, unacked: 6, total push: 2
+
+2020-01-14 18:15:28,695 INFO retry to push data, key: 10.11.229.113,60308,2195949330824399
+
+2020-01-14 18:15:28,695 INFO send udp packet: 10.11.229.113,60308,2195949330824399
+
+2020-01-14 18:15:35,265 INFO retry to push data, key: 10.11.229.113,60308,2195955902157900
+
+2020-01-14 18:15:35,265 INFO send udp packet: 10.11.229.113,60308,2195955902157900
+
+2020-01-14 18:15:38,696 INFO retry to push data, key: 10.11.229.113,60308,2195949330824399
+
+2020-01-14 18:15:38,696 WARN max re-push times reached, retry times 2, key: 10.11.229.113,60308,2195949330824399
+
+2020-01-14 18:15:45,266 INFO retry to push data, key: 10.11.229.113,60308,2195955902157900
+
+2020-01-14 18:15:45,266 WARN max re-push times reached, retry times 2, key: 10.11.229.113,60308,2195955902157900
+
+2020-01-14 18:16:18,651 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:16:24,451 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:18:47,198 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:18:47,198 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:51127, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,51127,2196157848000900
+
+2020-01-14 18:18:47,198 INFO send udp packet: 10.11.229.113,51127,2196157848000900
+
+2020-01-14 18:18:47,198 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:54696, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,54696,2196157848000900
+
+2020-01-14 18:18:47,198 INFO send udp packet: 10.11.229.113,54696,2196157848000900
+
+2020-01-14 18:18:47,248 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:18:57,199 INFO retry to push data, key: 10.11.229.113,51127,2196157848000900
+
+2020-01-14 18:18:57,199 INFO send udp packet: 10.11.229.113,51127,2196157848000900
+
+2020-01-14 18:18:57,199 INFO retry to push data, key: 10.11.229.113,54696,2196157848000900
+
+2020-01-14 18:18:57,199 INFO send udp packet: 10.11.229.113,54696,2196157848000900
+
+2020-01-14 18:19:07,201 INFO retry to push data, key: 10.11.229.113,51127,2196157848000900
+
+2020-01-14 18:19:07,201 WARN max re-push times reached, retry times 2, key: 10.11.229.113,51127,2196157848000900
+
+2020-01-14 18:19:07,201 INFO retry to push data, key: 10.11.229.113,54696,2196157848000900
+
+2020-01-14 18:19:07,201 WARN max re-push times reached, retry times 2, key: 10.11.229.113,54696,2196157848000900
+
+2020-01-14 18:25:25,981 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:25:26,024 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:61982, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,61982,2196556696132900
+
+2020-01-14 18:25:26,024 INFO send udp packet: 10.11.229.113,61982,2196556696132900
+
+2020-01-14 18:25:26,031 INFO received ack: {"type": "push-ack", "lastRefTime":"2196556696132900", "data":""} from: 10.11.229.113:, cost: 61982 ms, unacked: 7, total push: 0
+
+2020-01-14 18:25:27,222 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:25:42,058 INFO DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:25:42,058 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:61982, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,61982,2196572731904500
+
+2020-01-14 18:25:42,058 INFO send udp packet: 10.11.229.113,61982,2196572731904500
+
+2020-01-14 18:25:42,058 INFO serviceName: DEFAULT_GROUP@@providers:org.framework.dubbo.common.api.HelloService:: changed, schedule push for: 10.11.229.113:61983, agent: Nacos-Java-Client:v1.1.1, key: 10.11.229.113,61983,2196572731904500
+
+2020-01-14 18:25:42,058 INFO send udp packet: 10.11.229.113,61983,2196572731904500
+
+2020-01-14 18:25:42,105 INFO DEFAULT_GROUP@@consumers:org.framework.dubbo.common.api.HelloService:: is changed, add it to push queue.
+
+2020-01-14 18:25:52,059 INFO retry to push data, key: 10.11.229.113,61982,2196572731904500
+
+2020-01-14 18:25:52,059 INFO send udp packet: 10.11.229.113,61982,2196572731904500
+
+2020-01-14 18:25:52,059 INFO retry to push data, key: 10.11.229.113,61983,2196572731904500
+
+2020-01-14 18:25:52,059 INFO send udp packet: 10.11.229.113,61983,2196572731904500
+
+2020-01-14 18:26:02,059 INFO retry to push data, key: 10.11.229.113,61982,2196572731904500
+
+2020-01-14 18:26:02,059 WARN max re-push times reached, retry times 2, key: 10.11.229.113,61982,2196572731904500
+
+2020-01-14 18:26:02,059 INFO retry to push data, key: 10.11.229.113,61983,2196572731904500
+
+2020-01-14 18:26:02,059 WARN max re-push times reached, retry times 2, key: 10.11.229.113,61983,2196572731904500
+

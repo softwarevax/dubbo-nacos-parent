@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: dubbo-nacos-provider
+server:
+  port: ${dubbo-nacos-provider.port}
+nacos:
+  service-address: 127.0.0.1
+  port: 8848
+  config:
+    server-addr: 127.0.0.1:8848
+dubbo:
+  registry:
+    address: nacos://${nacos.service-address}:${nacos.port}
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: org.framework.dubbo.common.api

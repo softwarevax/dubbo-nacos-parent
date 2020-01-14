@@ -1,0 +1,4 @@
+2020-01-14 18:18:15,028 WARN [dump-ignore] ignore to save cache file. groupKey=dubbo-nacos-config-center+DEFAULT_GROUP, md5=3640a2e982aefbc639c0fb0b98a0515f, lastModifiedOld=1578996826779, lastModifiedNew=1578997094979
+
+2020-01-14 18:23:29,346 INFO [dump-all-ok] dubbo-nacos-config-center+DEFAULT_GROUP, 1578997094979, length=78, md5=3640a2e982aefbc639c0fb0b98a0515f
+
