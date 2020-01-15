@@ -16,7 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Reference
+    /**
+     * 避免提供者没有启动导致无法启动的问题
+     */
+    @Reference(check = false)
     HelloService helloService;
 
     @GetMapping("/hello/{name}")
