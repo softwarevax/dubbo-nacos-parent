@@ -16,3 +16,7 @@ dubbo:
     port: -1
   scan:
     base-packages: org.framework.dubbo.common.api
+  application: # 拒绝远端主机发出的命令，只允许服务本机执行
+    qos-accept-foreign-ip: false
+    qos-enable: true
+    qos-port: 22222

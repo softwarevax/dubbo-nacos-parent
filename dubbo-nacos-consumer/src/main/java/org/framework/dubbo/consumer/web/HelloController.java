@@ -19,7 +19,7 @@ public class HelloController {
     /**
      * 避免提供者没有启动导致无法启动的问题
      */
-    @Reference(check = false)
+    @Reference(check = false, version = "2.0", owner = "vax")
     HelloService helloService;
 
     @GetMapping("/hello/{name}")

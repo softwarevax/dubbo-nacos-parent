@@ -38,7 +38,6 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<!-- Apache Dubbo  -->
 			<dependency>
 				<groupId>org.apache.dubbo</groupId>
 				<artifactId>dubbo-dependencies-bom</artifactId>
@@ -46,30 +45,10 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<!-- Dubbo Spring Boot Starter -->
 			<dependency>
 				<groupId>org.apache.dubbo</groupId>
 				<artifactId>dubbo-spring-boot-starter</artifactId>
 				<version>${dubbo.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.dubbo</groupId>
-				<artifactId>dubbo</artifactId>
-				<version>${dubbo.version}</version>
-				<exclusions>
-					<exclusion>
-						<groupId>org.springframework</groupId>
-						<artifactId>spring</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>javax.servlet</groupId>
-						<artifactId>servlet-api</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>log4j</groupId>
-						<artifactId>log4j</artifactId>
-					</exclusion>
-				</exclusions>
 			</dependency>
 			<dependency>
 				<groupId>com.alibaba.boot</groupId>

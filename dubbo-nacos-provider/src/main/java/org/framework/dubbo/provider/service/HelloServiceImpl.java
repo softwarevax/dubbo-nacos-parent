@@ -11,7 +11,7 @@ import org.framework.dubbo.common.api.HelloService;
  * @classname HelloServiceImpl
  * @date 2020/1/14 17:01
  */
-@Service
+@Service(version = "2.0", timeout = 5000, interfaceName = "org.framework.dubbo.common.api.HelloService", owner = "vax")
 public class HelloServiceImpl implements HelloService {
 
     @NacosValue(value = "${custom.property}", autoRefreshed = true)

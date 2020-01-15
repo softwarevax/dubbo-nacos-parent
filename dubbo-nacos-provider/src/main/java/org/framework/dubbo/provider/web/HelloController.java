@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Reference
+    @Reference(check = false, version = "2.0", owner = "vax")
     HelloService helloService;
 
     @GetMapping("/hello/{name}")
